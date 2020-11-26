@@ -20,7 +20,7 @@ class _InputPageState extends State<InputPage> {
   Gender selectedGender;
   int height = 150;
   int weight = 50;
-  int age = 20;
+  int age = 30;
 
   @override
   Widget build(BuildContext context) {
