@@ -25,7 +25,7 @@ class ResultPage extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 5,
+            flex: 10,
             child: ReuseableContainer(
               colorr: kactiveColor,
               cardWidget: Column(
