@@ -12,7 +12,7 @@ class iconColumn extends StatelessWidget {
       children: [
         Icon(
           icon,
-          size: 30.0,
+          size: 100.0,
         ),
         SizedBox(
           height: 20.0,
