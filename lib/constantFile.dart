@@ -19,7 +19,7 @@ const kNumberStyle = TextStyle(
 );
 
 const kTitleTextStyle = TextStyle(
-  fontSize: 70.0,
+  fontSize: 100.0,
   fontWeight: FontWeight.bold,
 );
 
