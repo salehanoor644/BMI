@@ -11,7 +11,7 @@ class ReuseableContainer extends StatelessWidget {
       onTap: onPress,
       child: Container(
         child: cardWidget,
-        margin: EdgeInsets.all(15.0),
+        margin: EdgeInsets.all(20.0),
         decoration: BoxDecoration(
           color: colorr,
           borderRadius: BorderRadius.circular(10.0),
