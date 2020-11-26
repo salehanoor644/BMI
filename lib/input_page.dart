@@ -1,4 +1,4 @@
-import 'package:bmi_pratic_for_london/reultPage.dart';
+import 'package:new_bmi_calculater/reultPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'reUseableCardWidgets.dart';
@@ -24,6 +24,8 @@ class _InputPageState extends State<InputPage> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
+    var ac_unit_outlined;
     return Scaffold(
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
@@ -45,8 +47,8 @@ class _InputPageState extends State<InputPage> {
                         ? kactiveColor
                         : kinactiveColor,
                     cardWidget: iconColumn(
-                      icon: Icons.ac_unit_outlined,
                       label: "Male",
+
                     ),
                   ),
                 ),
