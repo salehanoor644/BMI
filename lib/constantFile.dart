@@ -6,7 +6,7 @@ const kBottomContainerHeight = 50.0;
 const kBottomContainerColour = Colors.yellow;
 
 const kbottemContainerStyle = TextStyle(
-  fontSize: 35.0,
+  fontSize: 40.0,
   fontWeight: FontWeight.bold,
 );
 
